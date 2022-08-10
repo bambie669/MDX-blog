@@ -9,14 +9,15 @@ const NewsLetter = () => {
           <h4>I write to my friends every few weeks</h4>
           <form
             className="contact-form"
-            name="testing-contact"
+            name="contact"
             method="post"
-            netifly-honeypot="bot-field"
-            data-netlifly="true"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
             action="/success"
+            netlify
           >
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="testing-contact" />
+            <input type="hidden" name="form-name" value="contact" />
 
             <input
               type="text"
