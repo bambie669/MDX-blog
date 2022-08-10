@@ -8,7 +8,7 @@ const Success = () => {
         <div className="page-center">
           <h2>you submission was recieved ! </h2>
           <Link to="/" className='btn'>
-            
+            back home 
           </Link>
         </div>
       </section>
